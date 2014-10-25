@@ -98,15 +98,32 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
-         
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.00"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/fanfact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="40dp"
+            android:text="Enter a fun fact ..."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="findMatch"
         android:text="Find a Match" />
-        
-    </RelativeLayout>
-
   
 </LinearLayout>
