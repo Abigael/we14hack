@@ -3,9 +3,11 @@ package com.example.googlehack;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 
 import android.app.LoaderManager.LoaderCallbacks;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.CursorLoader;
 import android.content.Loader;
 import android.database.Cursor;
@@ -62,12 +64,14 @@ public class LoginActivity extends PlusBaseActivity implements
 	private SignInButton mPlusSignInButton;
 	private View mSignOutButtons;
 	private View mLoginFormView;
-
+	Context context; 
+	Intent intent; 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
-
+		context = getApplicationContext();
+		intent = new Intent(this.context, StoryActivity.class);
 		// Find the Google+ sign in button.
 		mPlusSignInButton = (SignInButton) findViewById(R.id.plus_sign_in_button);
 		if (supportsGooglePlayServices()) {
@@ -75,7 +79,7 @@ public class LoginActivity extends PlusBaseActivity implements
 			mPlusSignInButton.setOnClickListener(new OnClickListener() {
 				@Override
 				public void onClick(View view) {
-					signIn();
+					//signIn();
 				}
 			});
 		} else {
@@ -109,6 +113,7 @@ public class LoginActivity extends PlusBaseActivity implements
 			@Override
 			public void onClick(View view) {
 				attemptLogin();
+				startActivity(intent);
 			}
 		});
 
@@ -178,6 +183,7 @@ public class LoginActivity extends PlusBaseActivity implements
 			mAuthTask = new UserLoginTask(email, password);
 			mAuthTask.execute((Void) null);
 		}
+		
 	}
 
 	private boolean isEmailValid(String email) {

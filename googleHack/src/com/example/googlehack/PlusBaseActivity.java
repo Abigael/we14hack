@@ -97,11 +97,11 @@ public abstract class PlusBaseActivity extends ActionBarActivity implements
 			} else {
 				// If we don't have one though, we can start connect in
 				// order to retrieve one.
-				initiatePlusClientConnect();
+				//initiatePlusClientConnect();
 			}
 		}
 
-		updateConnectButtonState();
+		//updateConnectButtonState();
 	}
 
 	/**

@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int bkg=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1457,6 +1460,7 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020077;
     }
     public static final class id {
+        public static final int Spinner01=0x7f080064;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
         public static final int action_bar_container=0x7f08002d;
@@ -1472,9 +1476,17 @@ containing a value of this type.
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
         public static final int book_now=0x7f080010;
+        public static final int button1=0x7f08005b;
+        public static final int button2=0x7f08005c;
         public static final int buyButton=0x7f08000a;
         public static final int buy_now=0x7f08000f;
         public static final int buy_with_google=0x7f08000e;
+        public static final int checkBox1=0x7f08005d;
+        public static final int checkBox2=0x7f08005e;
+        public static final int checkBox3=0x7f08005f;
+        public static final int checkBox4=0x7f080060;
+        public static final int checkBox5=0x7f080061;
+        public static final int checkBox6=0x7f080062;
         public static final int checkbox=0x7f08003f;
         public static final int classic=0x7f080011;
         public static final int collapseActionView=0x7f080020;
@@ -1540,6 +1552,9 @@ containing a value of this type.
         public static final int submit_area=0x7f08004b;
         public static final int tabMode=0x7f080015;
         public static final int terrain=0x7f080003;
+        public static final int textView1=0x7f080059;
+        public static final int textView2=0x7f08005a;
+        public static final int textView3=0x7f080063;
         public static final int title=0x7f08003d;
         public static final int top_action_bar=0x7f080032;
         public static final int up=0x7f080033;
@@ -1599,9 +1614,12 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_login=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int activity_search=0x7f030019;
+        public static final int activity_story=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class string {
+        public static final int Hi_Amy=0x7f060033;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f060024;
@@ -1643,9 +1661,11 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f06002e;
         public static final int accept=0x7f060002;
-        public static final int action_sign_in=0x7f060034;
-        public static final int action_sign_in_short=0x7f060035;
+        public static final int action_sign_in=0x7f06003c;
+        public static final int action_sign_in_short=0x7f06003d;
         public static final int app_name=0x7f060030;
+        public static final int bkg_prompt=0x7f060037;
+        public static final int choose_option=0x7f060034;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f060009;
@@ -1748,19 +1768,24 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
-        public static final int error_field_required=0x7f06003b;
-        public static final int error_incorrect_password=0x7f06003a;
-        public static final int error_invalid_email=0x7f060038;
-        public static final int error_invalid_password=0x7f060039;
-        public static final int plus_disconnect=0x7f060037;
-        public static final int plus_sign_out=0x7f060036;
+        public static final int error_field_required=0x7f060043;
+        public static final int error_incorrect_password=0x7f060042;
+        public static final int error_invalid_email=0x7f060040;
+        public static final int error_invalid_password=0x7f060041;
+        public static final int hello_world=0x7f060032;
+        public static final int mentee=0x7f060035;
+        public static final int mentor=0x7f060036;
+        public static final int plus_disconnect=0x7f06003f;
+        public static final int plus_sign_out=0x7f06003e;
         /**  Strings related to login 
          */
-        public static final int prompt_email=0x7f060032;
-        public static final int prompt_password=0x7f060033;
+        public static final int prompt_email=0x7f06003a;
+        public static final int prompt_password=0x7f06003b;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
-        public static final int title_activity_login=0x7f060031;
+        public static final int title_activity_login=0x7f060038;
+        public static final int title_activity_search=0x7f060031;
+        public static final int title_activity_story=0x7f060039;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */

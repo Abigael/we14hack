@@ -1,5 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">googleHack</string>
+    <string name="app_name">Mentor Match</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Hi_Amy">Hello, Amy!</string>
+    <string name="choose_option">Would you like a..</string>
+    <string name="mentee"> Mentee</string>
+    <string name="mentor"> Mentor</string>
+   
+    <string-array name="bkg">
+        <item >Computer Science</item>
+        <item >Systems Engineer</item>
+        <item >Mechanical Engineer</item>
+        <item >Industrial Engineer</item>
+        <item >Electrical Engineer</item>
+        <item >Chemical Engineer</item>
+        <item >Biomedical Engineer</item>
+    </string-array>
+  <string name="bkg_prompt">Select a field</string>
+
 
 </resources>
