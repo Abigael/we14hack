@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Mentor Match</string>
-    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_search">Pick an Option</string>
     <string name="hello_world">Hello world!</string>
     <string name="Hi_Amy">Hello, Amy!</string>
     <string name="choose_option">Would you like a..</string>
@@ -19,10 +19,8 @@
         <item>Biomedical Engineer</item>
     </string-array>
 
-    <string name="bkg_prompt">Select a field</string>
-    <string name="title_activity_connect">ConnectActivity</string>
-    
-    
+    <string name="bkg_prompt">My Background is in...</string>
+    <string name="title_activity_connect">finding you a match!</string>
     <string name="content_column">Content</string>
     <string name="page_referrers">Referrers</string>
     <string name="refresh_action">Refresh</string>
@@ -63,7 +61,6 @@
     <string name="navigation_drawer_open">Drawer Open</string>
     <string name="navigation_drawer_close">Drawer Close</string>
     <string name="title_home">Home</string>
-
-    
+    <string name="title_activity_confirm">ConfirmActivity</string>
 
 </resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-30dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:textAlignment="center" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="248dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="175.74"
+        android:text="Found a match!!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/anonymous_avatar"
+        android:minHeight="300dp"
+        android:minWidth="300dp"
+        android:src="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-20dp"
+        android:layout_weight="0.54"
+        android:text="Mentor Name: Jessica R."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:text="Fun Fact: Just GOOGLE it!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:background="#e84e40"
+                android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        
+        android:onClick="sentRequest"
+        android:text="Request To Meet"
+        android:textSize="28dp" />
+
+    <requestFocus />
+
+</LinearLayout>

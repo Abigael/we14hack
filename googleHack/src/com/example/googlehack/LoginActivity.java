@@ -5,6 +5,9 @@ import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.Intent;
 
+
+import com.nativecss.NativeCSS;
+
 import android.app.LoaderManager.LoaderCallbacks;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -121,6 +124,8 @@ public class LoginActivity extends PlusBaseActivity implements
 		mProgressView = findViewById(R.id.login_progress);
 		mEmailLoginFormView = findViewById(R.id.email_login_form);
 		mSignOutButtons = findViewById(R.id.plus_sign_out_buttons);
+		
+		//NativeCSS.styleWithCSS(this.getApplication(), "view{background-color:red}");
 	}
 
 	private void populateAutoComplete() {

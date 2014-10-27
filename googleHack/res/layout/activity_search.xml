@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#c0c0c0"
     android:orientation="vertical"
     android:paddingBottom="20dp"
     android:paddingLeft="4dp"
@@ -12,9 +10,10 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="235dp"
+        android:layout_width="308dp"
+        android:textColor="#e84e40"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="75dp"
+        android:layout_marginLeft="55dp"
         android:layout_marginTop="20dp"
         android:text="@string/Hi_Amy"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -22,49 +21,48 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="345dp"
         android:layout_height="0dp"
-        android:layout_gravity="left"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="50dp"
-        android:layout_weight="0.11"
-        android:text="@string/choose_option"
+        android:layout_weight="0.01"
+        android:text="Are you looking for a..."
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textSize="30sp" />
 
     <Button
         android:id="@+id/button1"
+        
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_marginRight="3dp"
         android:layout_marginTop="60dp"
-        android:background="#ff9999"
+        android:layout_weight="0.00"
+        android:background="#e84e40"
         android:minHeight="50dp"
+        android:onClick="searchMatches"
         android:text="@string/mentor"
         android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:typeface="sans"
-        android:onClick="searchMatches"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
         android:width="20dp" />
 
     <Button
+               android:textColor="#FFFFFF"
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
         android:layout_marginRight="3dp"
         android:layout_marginTop="30dp"
-        android:background="#ff9999"
+        android:background="#e84e40"
         android:minHeight="50dip"
+        android:onClick="searchMatches"
         android:paddingBottom="14dp"
         android:paddingTop="10dp"
         android:text="@string/mentee"
         android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:onClick="searchMatches"
-        android:typeface="sans" />
+        
+        android:textSize="30sp"
+        />
 
 </LinearLayout>

@@ -9,13 +9,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        style="@style/AppBaseTheme"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="5dp"
         android:paddingBottom="5dp"
         android:text="My Story"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#e84e40"
         android:textSize="30sp" />
 
     <TextView
@@ -25,8 +27,9 @@
         android:layout_gravity="left"
         android:layout_marginLeft="5dp"
         android:paddingBottom="2dp"
-        android:text="I want to ...."
-        android:textSize="16sp" />
+        android:text="I am here to ...."
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <CheckBox
         android:id="@+id/checkBox1"
@@ -82,10 +85,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:layout_marginLeft="5dp"
-        android:text="I am ..."
-        android:textSize="16sp" />  
-    
-    
+        android:paddingTop="20dp"
+        android:text="My Background is in ..."
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/Spinner01"
@@ -98,32 +101,18 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
-
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_weight="0.00"
-            android:ems="10" />
-
-        <TextView
-            android:id="@+id/fanfact"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:paddingTop="40dp"
-            android:text="Enter a fun fact ..."
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textSize="24dp" />
     </RelativeLayout>
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:layout_width="397dp"
+                android:textColor="#FFFFFF"
         android:layout_height="wrap_content"
+        android:background="#e84e40"
         android:onClick="findMatch"
+        
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="Find a Match" />
   
 </LinearLayout>
